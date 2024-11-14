@@ -7,7 +7,7 @@
 
 html, body {
     overflow-x: hidden;
-    width: 100%;
+    width: fit-content;
     background-color: var(--baby-yellow);
     margin: 0;
     padding: 0;
