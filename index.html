@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+    <title> Birth to Three Cavity Free </title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function openTab(tabName) {
+            var tabs = document.getElementsByClassName("tab");
+            var navLinks = document.querySelectorAll("nav a");
+
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].classList.remove("active");
+            }
+
+            for (var j = 0; j < navLinks.length; j++) {
+                navLinks[j].classList.remove("active-tab");
+            }
+            document.getElementById(tabName).classList.add("active");
+
+            event.currentTarget.classList.add("active-tab");
+        }
+    </script>
+</head>
+
+
+<body>
+<header>
+    <img src="Pictures and Examples/BTCF Mom.png" alt="BTCF Logo">
+    <div class="header-text">
+        <h1> Birth to Three Cavity Free </h1>
+        <p> Encouraging Healthy Smiles for your Future Baby from the Start </p>
+    </div>
+</header>
+
+<nav>
+     <a href="javascript:void(0);" onclick="openTab('info')" class="active-tab" >Info</a>
+     <a href="javascript:void(0);" onclick="openTab('faq')">FAQ</a>
+     <a href="javascript:void(0);" onclick="openTab('newsletter')">Newsletter</a>
+</nav>
+
+<section>
+    <div id="info" class="tab active">
+        <h2>Study Information</h2>
+        
+        <div class="info-container">
+            <div class="info-box left-box">
+                <h3>About the Study</h3>
+                <p>The purpose of the study is to prevent a serious dental disease called early childhood caries
+                    that can occur in very young children. The study will begin during your pregnancy and will
+                    follow your baby through age three. <br>
+                    <br>
+                    The primary activities that will be done for the study include filling out simple questionnaires and watching videos. Some of these activities will be 
+                    done in person at the local WIC clinic and others can be completed online. Once the child reaches one year of age the inperson visits will involve a 
+                    simple and free dental screening to check for plaque and cavities. (Mention dental screenings for siblings?) 
+                </p>
+            </div>
+    
+            <div class="info-box right-box">
+                <h3>Compensation</h3>
+                <div class="content-wrapper">
+                    <p> There will be a total of four in person visits and six online questionnaires. Please see below for more details on the study timeline. <br>
+                        <br>
+                        First Visit: $50 <br>
+                        Second Visit: $75 <br>
+                        Third Visit: $100 <br>
+                        Fourth Visit: $125 <br>
+                        <br>
+                        Online Questionnaires: $20 <br>
+                         <br>
+
+                        Total Compenstion: $470
+                    </p>
+                    <img src="Pictures and Examples/ToothNoBack.png" alt="Tooth footer image">
+                </div>
+            </div>
+    
+            <div class="info-box bottom-box">
+                <h3>Study Timeline</h3>
+                <p> The "Birth to Three Cavity Free" study takes place over four years. The first year begins at pregnancy, and the following
+                    visits will take place a year apart when the child is one, two, and three years old. The yearly visits will take place at the WIC clinic. Between each
+                    yearly visit there will be three online research activities. These activities will be sent out through text and email. A set of questionnaires will be sent out one month after your inperson visit.
+                    A short video will be sent out three months following your visit, and one more set of questionnaires at nine months. 
+                </p>
+                <div class="timeline">
+                    <div class="primary-marker" data-label="First Visit (In-Person)"></div>
+                    <div class="primary-marker" data-label="Second Visit (In-person)"></div>
+                    <div class="primary-marker" data-label="Third Visit (In-person)"></div>
+                    <div class="primary-marker" data-label="Fourth Visit (In-person)"></div>
+
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                    <div class="secondary-marker"></div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="faq" class="tab">
+        <h2>FAQ</h2>
+
+        <div class="FAQ-container">
+            <div class="FAQ-box Compensation-box">
+                <h4>When do I recieve compensation?</h4>
+            </div>
+
+            <div class="FAQ-box Reschedule-box">
+                <h4>What should I do if I need to reschedule my appointment?</h4>
+            </div>
+
+        </div>
+        
+
+    </div>
+
+    <div id="newsletter" class="tab">
+        <h2>BTCF Newsletter</h2>
+        <img src="Pictures and Examples/Newsletter.png" alt="Newsletter">
+    </div>
+</section>
+
+<div class="circles Blue"></div>
+<div class="circles Yellow"></div>
+
+</body>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-text">
+            <h5>Contact:
+            </h5>
+            <p>
+                University of Iowa Department <br>
+                of Pediatric Dentistry <br>
+                Phone: 319-467-4121 <br>
+                Email: dentisty-cavityfree-study@uiowa.edu
+            </p>
+        </div>
+        <img src="Pictures and Examples/Iowa.png" alt="Iowa foot Image" class="footer-image">
+    </div>
+    <!-- <div class="circles Red"></div> -->
+</footer>
+
+</html>
