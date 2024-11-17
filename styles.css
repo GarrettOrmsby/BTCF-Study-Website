@@ -219,7 +219,8 @@ section h2 {
 
 @media (max-width: 768px) {
     .timeline-image-container img{
-        width: 60%;
+        width: 400px;
+        height: auto;
     }
 }
 
