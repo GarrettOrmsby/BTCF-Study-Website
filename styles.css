@@ -217,11 +217,7 @@ section h2 {
     height: auto;
 }
 
-@media (max-width: 768px) {
-    .timeline-image-container img{
-        width: 100%;
-    }
-}
+
 
 .FAQ-container{
     display: flex;
