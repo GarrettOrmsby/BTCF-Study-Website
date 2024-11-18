@@ -289,6 +289,20 @@ section h2 {
     top: 300px;
 } 
 
+@media (max-width: 768px) {
+    .Blue {
+        width: 320px;
+        height: 650px;
+        background-color: #5368d6;
+        border-radius:  0 350px 350px 0;
+        opacity: 0.6;
+        z-index: 1;
+        position: absolute;
+        top: 100%;
+        right: auto;
+
+    }
+}
 .Yellow {
     width: 500px;
     height: 500px;
