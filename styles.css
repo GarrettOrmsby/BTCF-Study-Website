@@ -189,7 +189,7 @@ section h2 {
 }
 
 .tooth-image-container img{
-    width: max(25%, 200px);
+    width: max(30%, 200px);
     height: auto;
 }
 
@@ -314,15 +314,6 @@ section h2 {
     opacity: 0.7;
 }
 
-/* .Red {
-    width: 700px;
-    height: 700px;
-    background-color: #eb8181;
-    bottom: -500px;
-    left: 5%;
-    opacity: 0.8;
-    
-} */
 
 .footer-content {
     display: flex;
