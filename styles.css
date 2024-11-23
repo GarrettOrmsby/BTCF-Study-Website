@@ -234,6 +234,7 @@ section h2 {
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    padding-bottom: 40px;
 }
 
 .FAQ-box {
