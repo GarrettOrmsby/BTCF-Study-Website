@@ -94,7 +94,7 @@ nav a.active-tab {
 
 section {
     /* width: fit-content; */
-    background-color: var(--baby-red);
+    background: linear-gradient(0deg, #e6536fb2, var(--baby-red));
     padding: 0;
     margin: 0;
     box-sizing: border-box;
