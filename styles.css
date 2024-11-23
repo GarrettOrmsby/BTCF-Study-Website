@@ -14,7 +14,7 @@ html, body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 815px) {
     html, body {
         overflow-x: hidden;
         width: fit-content;
@@ -126,7 +126,7 @@ section h2 {
     padding-top: 35px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 815px) {
     .info-container {
         display: flex;
         flex-direction: column;
@@ -220,7 +220,7 @@ section h2 {
     height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 815px) {
     .timeline-image-container img{
         width: 100%;
         padding-left: 50px;
@@ -293,7 +293,7 @@ section h2 {
     top: 300px;
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 815px) {
     .Blue {
         width: 320px;
         height: 650px;
